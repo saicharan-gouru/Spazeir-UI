@@ -8,17 +8,17 @@ body {
     border-radius: 50%;
 }
 
-.small-avatar {
+.avatar-small {
     width: 3rem;
     height: 3rem;
 }
 
-.medium-avatar {
+.avatar-medium {
     width: 6rem;
     height: 6rem;
 }
 
-.large-avatar {
+.avatar-large {
     width: 10rem;
     height: 10rem;
 }
