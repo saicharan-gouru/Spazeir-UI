@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital@1&family=Ubuntu:wght@300&display=swap');
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+:root {
+    --red: red;
+    --primary-color: #2563EB;
+}
+
+.badge-container {
+    max-width: 20rem;
+    margin: auto;
+}
+
+.text {
+    margin: 2rem;
+}
+
+.badge-on-text {
+    position: relative;
+    top: -0.8rem;
+    background-color: var(--red);
+    width: max-content;
+    font-size: 0.79rem;
+    padding: 0.2rem 0.5rem;
+    border-radius: 2rem;
+    color: white;
+    font-weight: bold;
+}
+
+.large-badge-on-text {
+    position: relative;
+    top: -0.8rem;
+    left: -0.5rem;
+    background-color: var(--red);
+    width: max-content;
+    font-size: 0.79rem;
+    padding: 0.5rem 0.5rem;
+    border-radius: 2rem;
+    color: white;
+    font-weight: bold;
+}
+
+.button1 {
+    padding: 0.6rem 0.8rem;
+    background-color: var(--primary-color);
+    color: white;
+    border-radius: 0.5rem;
+    border: 0px;
+}
+
+.badge-on-button {
+    position: relative;
+    top: -3.9rem;
+    left: -0.8rem;
+    background-color: var(--red);
+    width: max-content;
+    font-size: 0.79rem;
+    padding: 0.2rem 0.5rem;
+    border-radius: 2rem;
+    color: white;
+    font-weight: bold;
+}
+
+.fas {
+    font-size: 3rem;
+}
+
+.badge-on-icon {
+    position: relative;
+    top: -4.3rem;
+    left: 3rem;
+    width: max-content;
+    font-size: 0.79rem;
+    padding: 0.2rem 0.5rem;
+    border-radius: 2rem;
+    color: white;
+    font-weight: bold;
+    background-color: var(--red);
+}
