@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital@1&family=Ubuntu:wght@300&display=swap');
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+    margin: 0px;
+}
+
+:root {
+    --primary-color: #2563EB;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.hero-img1,
+.hero-img2 {
+    width: 30%;
+}
+
+.hero-content {
+    padding: 5rem;
+}
+
+.hero-img1 {
+    max-width: 30rem;
+}
+
+.hero-heading {
+    font-size: 5em;
+    cursor: pointer;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+
+.hero-heading span {
+    color: var(--primary-color);
+}
