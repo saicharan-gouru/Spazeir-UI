@@ -13,7 +13,7 @@ body {
     --secondary-green: #A7F3D0;
     --secondary-yellow: #FDE68A;
     --secondary-blue: #60A5FA;
-    --white: white;
+    --white: #ffffff;
 }
 
 .button-container {
