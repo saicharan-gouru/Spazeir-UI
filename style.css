@@ -72,3 +72,26 @@ body {
     font-size: 1rem;
     cursor: pointer;
 }
+
+.hero-footer {
+    background-color: var(--primary-color);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    padding: 2rem;
+}
+
+.fab {
+    color: white;
+    font-size: 1.7rem;
+    padding: 1rem;
+}
+
+.profile {
+    color: white;
+    text-decoration: none;
+    color: rgb(253, 196, 52);
+    font-weight: bold;
+}
