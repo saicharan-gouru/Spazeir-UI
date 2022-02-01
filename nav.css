@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital@1&family=Ubuntu:wght@300&display=swap');
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+    margin: 0px;
+}
+
+:root {
+    --primary-color: #2563EB;
+}
+
+.container {
+    display: grid;
+    gap: 20px;
+    grid-template-columns: 200px;
+    grid-template-areas: "header header" "aside main" "aside main" "aside main" "aside main" "footer footer";
+}
+
+.header {
+    grid-area: header;
+    background-color: aqua;
+}
+
+.aside {
+    grid-area: aside;
+}
+
+.main {
+    grid-area: main;
+    background-color: antiquewhite;
+}
+
+.footer {
+    grid-area: footer;
+    background-color: thistle;
+}
+
+.hero-header {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    background-color: var(--primary-color);
+    color: white;
+}
+
+.brand-name {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin: 2rem;
+    cursor: pointer;
+}
+
+.git {
+    margin-left: auto;
+    text-decoration: none;
+    margin-right: 2rem;
+    color: white;
+    font-size: 2.5rem;
+}
+
+.hero-footer {
+    background-color: var(--primary-color);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    padding: 2rem;
+}
+
+.fab {
+    color: white;
+    font-size: 1.7rem;
+    padding: 1rem;
+}
+
+.profile {
+    color: white;
+    text-decoration: none;
+    color: rgb(253, 196, 52);
+    font-weight: bold;
+}
+
+.nav {
+    list-style-type: none;
+}
+
+.nav-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.nav-link:hover,
+.active {
+    background-color: var(--primary-color);
+    color: white;
+    font-weight: bold;
+}
+
+.active {
+    background-color: var(--primary-color);
+    color: white !important;
+    font-weight: bold;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: black;
+    padding: 1rem;
+    margin: 1rem;
+}
