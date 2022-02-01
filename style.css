@@ -93,7 +93,7 @@ body {
 .profile {
     color: white;
     text-decoration: none;
-    color: ;
+    color: var(--gold) ;
     font-weight: bold;
 }
 
