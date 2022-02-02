@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital@1&family=Ubuntu:wght@300&display=swap');
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+:root {
+    --white: white;
+    --black: black;
+    --hover-color: rgb(247, 242, 242);
+    --grey: grey;
+    --gainsboro: gainsboro;
+}
+
+.hero-container1,
+.hero-container2,
+.hero-container3,
+.hero-container4 {
+    max-width: 23rem;
+    margin: auto;
+    background-color: var(--white);
+    border-radius: 1rem;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+    border: 2px solid black;
+}
+
+.container1:hover {
+    background-color: var(--hover-color);
+}
+
+.hero-container1 .container1,
+.hero-container1 .container2,
+.hero-container2 .container2 {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    padding: 0.5rem;
+    border-radius: 1rem;
+}
+
+.hero-img {
+    width: 5 rem;
+    height: 10rem;
+    border-top-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    padding-top: 0.5rem;
+}
+
+.hero-heading {
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+
+h6 {
+    padding-top: 0px;
+    margin-top: 0px;
+    text-align: center;
+    color: var(--grey);
+}
+
+.btn {
+    border-radius: 0.5rem;
+    border: 1px solid;
+    padding: 0.5rem;
+    background-color: var(--white);
+    color: black;
+    cursor: pointer;
+    font-size: 0.85rem;
+}
+
+.btn:hover {
+    background-color: var(--gainsboro);
+}
+
+i {
+    padding: 0.5rem;
+    border-radius: 0.2rem;
+    cursor: pointer;
+}
+
+i:hover {
+    background-color: var(--gainsboro);
+}
+
+.hero-container2 {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid black;
+}
+
+.hero-container2 .container1,
+.hero-container3 .container1,
+.hero-container4 .container1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 1rem;
+}
+
+.hero-heading {
+    text-align: center;
+}
+
+.desc {
+    padding: 0rem 1rem;
+    font-size: 0.8rem;
+}
+
+.hero-container3 .container2 {
+    display: flex;
+    justify-content: flex-start;
+    gap: 20px;
+    align-items: center;
+    padding: 0.5rem;
+}
+
+.hero-container4 .container2 {
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px;
+    align-items: center;
+    padding: 0.5rem;
+}
+
+.heading {
+    text-align: center;
+    text-decoration: underline;
+}
+
+
+/* card 6 */
+
+.hero-container6 {
+    max-width: 23rem;
+    margin: auto;
+    background-color: var(--white);
+    border-radius: 1rem;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+    border: 2px solid black;
+}
+
+.hero-container6 .container1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 1rem;
+}
+
+.hero-container6 .container2 {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    padding: 0.5rem;
+    border-radius: 1rem;
+}
+
+.hero-container6 .container1 .content {
+    margin-top: -5rem;
+}
+
+.hero-container6 .container1 .content .desc {
+    color: var(--black);
+    margin-right: 0 !important;
+}
+
+.hero-container6 .container1 .content .hero-heading {
+    color: var(--white);
+    margin-right: 7rem;
+}
+
+.hero-container6 .container1 .content h6 {
+    color: var(--white);
+    margin-right: 7rem;
+}
