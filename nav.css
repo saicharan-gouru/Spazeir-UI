@@ -7,6 +7,7 @@ body {
 
 :root {
     --primary-color: #2563EB;
+    --gold: rgb(253, 196, 52);
 }
 
 .container {
@@ -110,4 +111,20 @@ body {
     color: black;
     padding: 1rem;
     margin: 1rem;
+}
+
+.main-nav {
+    color: white;
+    text-decoration: none;
+    margin: 1rem;
+}
+
+.main-nav:hover {
+    padding-bottom: 1rem;
+    border-bottom: 2px solid black;
+}
+
+.active-tab {
+    color: var(--gold);
+    font-weight: bold;
 }
