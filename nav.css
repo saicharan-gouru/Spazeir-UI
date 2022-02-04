@@ -19,7 +19,7 @@ body {
 
 .header {
     grid-area: header;
-    background-color: aqua;
+
 }
 
 .aside {
@@ -28,12 +28,12 @@ body {
 
 .main {
     grid-area: main;
-    background-color: antiquewhite;
+
 }
 
 .footer {
     grid-area: footer;
-    background-color: thistle;
+
 }
 
 .hero-header {
