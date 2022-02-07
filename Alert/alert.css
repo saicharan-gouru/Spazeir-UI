@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital@1&family=Ubuntu:wght@300&display=swap');
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+:root {
+    --primary-red: #DC2626;
+    --secondary-red: #F87171;
+    --primary-green: #34D399;
+    --secondary-green: #A7F3D0;
+    --primary-yellow: #FBBF24;
+    --secondary-yellow: #FDE68A;
+    --primary-blue: #2563EB;
+    --secondary-blue: #60A5FA;
+}
+
+.alert-container {
+    max-width: 30rem;
+    margin: auto;
+}
+
+.alert {
+    padding: 1.5rem;
+    border: 2px solid gainsboro;
+    margin: 1rem;
+    border-radius: 1rem;
+    font-weight: bold;
+}
+
+.success {
+    background-color: var(--secondary-green);
+}
+
+.success:hover {
+    background-color: var(--primary-green);
+}
+
+.failure {
+    background-color: var(--secondary-red);
+}
+
+.failure:hover {
+    background-color: var(--primary-red);
+}
+
+.warning {
+    background-color: var(--secondary-yellow);
+}
+
+.warning:hover {
+    background-color: var(--primary-yellow);
+}
+
+.info {
+    background-color: var(--secondary-blue);
+}
+
+.info:hover {
+    background-color: var(--primary-blue);
+}

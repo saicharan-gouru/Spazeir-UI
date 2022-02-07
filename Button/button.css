@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital@1&family=Ubuntu:wght@300&display=swap');
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+:root {
+    --primary-red: #DC2626;
+    --primary-green: #34D399;
+    --primary-yellow: #FBBF24;
+    --primary-blue: #2563EB;
+    --secondary-red: #F87171;
+    --secondary-green: #A7F3D0;
+    --secondary-yellow: #FDE68A;
+    --secondary-blue: #60A5FA;
+    --white: #ffffff;
+}
+
+.button-container {
+    max-width: 35rem;
+    margin: auto;
+}
+
+.button {
+    padding: 1rem 2rem;
+    margin: 1rem;
+    border: 0px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.primary-red {
+    background-color: var(--secondary-red);
+}
+
+.primary-red:hover {
+    background-color: var(--primary-red);
+    color: var(--white);
+}
+
+.primary-blue {
+    background-color: var(--secondary-blue);
+}
+
+.primary-blue:hover {
+    background-color: var(--primary-blue);
+    color: var(--white);
+}
+
+.primary-yellow {
+    background-color: var(--secondary-yellow);
+}
+
+.primary-yellow:hover {
+    background-color: var(--primary-yellow);
+    color: var(--white);
+}
+
+.primary-green {
+    background-color: var(--secondary-green);
+}
+
+.primary-green:hover {
+    background-color: var(--primary-green);
+    color: var(--white);
+}
+
+.source-code {
+    margin-top: 2rem;
+}
+
+.link-red {
+    background-color: var(--secondary-red);
+    text-decoration: underline;
+}
+
+.link-red:hover {
+    background-color: var(--primary-red);
+    color: var(--white);
+}
+
+.link-blue {
+    background-color: var(--secondary-blue);
+    text-decoration: underline;
+}
+
+.link-blue:hover {
+    background-color: var(--primary-blue);
+    color: var(--white);
+}
+
+.link-yellow {
+    background-color: var(--secondary-yellow);
+    text-decoration: underline;
+}
+
+.link-yellow:hover {
+    background-color: var(--primary-yellow);
+    color: var(--white);
+}
+
+.link-green {
+    background-color: var(--secondary-green);
+    text-decoration: underline;
+}
+
+.link-green:hover {
+    background-color: var(--primary-green);
+    color: var(--white);
+}
+
+.icon {
+    background-color: var(--secondary-blue);
+    font-size: 20px;
+}
+
+.icon:hover {
+    background-color: var(--primary-blue);
+    color: var(--white);
+}
