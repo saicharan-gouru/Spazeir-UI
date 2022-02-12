@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital@1&family=Ubuntu:wght@300&display=swap');
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.image-container {
+    max-width: 50%;
+    margin: auto;
+    gap: 4rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.responsive-image {
+    width: 100%;
+    height: auto;
+}
+
+.round-image {
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+}
