@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital@1&family=Ubuntu:wght@300&display=swap');
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+:root {
+    --primary-blue: #2563EB;
+    --secondary-blue: #60A5FA;
+    --white: #ffffff;
+    --black: #000;
+}
+
+.snackbars-container {
+    max-width: 60%;
+    margin: auto;
+}
+
+button {
+    display: block;
+    margin: 2rem;
+    padding: 1rem 3rem;
+    border-radius: 0.5rem;
+    background-color: var(--secondary-blue);
+    border: 0px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: var(--primary-blue);
+    color: var(--white);
+}
+
+.snackbar {
+    position: absolute;
+    visibility: hidden;
+    background-color: var(--black);
+    color: var(--white);
+    max-width: 15rem;
+    text-align: center;
+    padding: 1rem;
+    z-index: 1;
+}
+
+.snackbar.show {
+    visibility: visible;
+}
+
+
+/* baseline snackbar */
+
+.baseline-snackbar {
+    top: 38rem;
+    left: 40%;
+    right: 40%
+}
+
+
+/* leading snackbar */
+
+.leading-snackbar {
+    top: 38rem;
+    left: 5%;
+}
+
+
+/* stacked snackbar */
+
+.stacked-snackbar {
+    top: 34rem;
+    right: 5%;
+}

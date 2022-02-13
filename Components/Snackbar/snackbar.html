@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Snackbar</title>
+    <link href="snackbar.css" rel="stylesheet" type="text/css" />
+    <link href="/nav.css" rel="stylesheet" type="text/css" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon.png">
+</head>
+
+<body>
+    <div class="container">
+        <div class="header child">
+            <div class="hero-header">
+                <p class="brand-name">Spazeir UI</p>
+                <p><a class="main-nav" href="/index.html">Home</a></p>
+                <p><a class="main-nav active-tab" href="/Components/Avatar/avatar.html">Docs</a></p>
+                <a class="git" href="https://github.com/saicharan-gouru/Spazeir-UI"><i class="fab fa-github"></i></a>
+            </div>
+        </div>
+
+        <div class="aside child">
+            <ul class="nav">
+                <li class="nav-item"><a class="nav-link" href="/Components/Avatar/avatar.html">Avatar</a></li>
+                <li class="nav-item"><a class="nav-link" href="/Components/Badge/badge.html">Badge</a></li>
+                <li class="nav-item"><a class="nav-link" href="/Components/Alert/alert.html">Alert</a></li>
+                <li class="nav-item"><a class="nav-link" href="/Components/Button/button.html">Button</a></li>
+                <li class="nav-item"><a class="nav-link" href="/Components/Card/card.html">Card</a></li>
+                <li class="nav-item"><a class="nav-link" href="/Components/Image/image.html">Image</a></li>
+                <li class="nav-item"><a class="nav-link" href="/Components/Input/input.html">Input</a></li>
+                <li class="nav-item"><a class="nav-link" href="/Components/Modal/modal.html">modal</a></li>
+                <li class="nav-item"><a class="nav-link active" href="/Components/Snackbar/snackbar.html">snackbar</a></li>
+            </ul>
+        </div>
+        <div class="main child">
+                <h1><u><center>Snackbar Components</center></u></h1>
+    <div class="snackbars-container">
+        <p>click on the buttons to see the snackbars</p>
+        <button class="btn-baseline">
+        Baseline Snackbar
+        </button>
+        <div class="snackbar baseline-snackbar">
+            This is a baseline snack bar
+        </div>
+        <button class="btn-leading">
+        Leading Snackbar
+        </button>
+        <div class="snackbar leading-snackbar">
+            This is a leading snack bar
+        </div>
+        <button class="btn-stacked">
+        Stacked Snackbar
+        </button>
+        <div class="snackbar stacked-snackbar">
+            <p>This is a stacked snack bar</p>
+            <p>I'm stacked :)</p>
+        </div>
+
+        <iframe src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=htmlmixed&width=809.25&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn-baseline%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520Baseline%2520Snackbar%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522snackbar%2520baseline-snackbar%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520This%2520is%2520a%2520baseline%2520snack%2520bar%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn-leading%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520Leading%2520Snackbar%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522snackbar%2520leading-snackbar%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520This%2520is%2520a%2520leading%2520snack%2520bar%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn-stacked%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520Stacked%2520Snackbar%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522snackbar%2520stacked-snackbar%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%253EThis%2520is%2520a%2520stacked%2520snack%2520bar%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%253EI%27m%2520stacked%2520%253A%29%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E"
+            style="width: 100%; height: 617px; border:0; transform: scale(1); overflow:hidden;" sandbox="allow-scripts allow-same-origin">
+        </iframe>
+    </div>
+        </div>
+
+        <div class="footer child">
+            <div class="hero-footer">
+                <div class="social">
+                    <a href="https://www.linkedin.com/in/saicharangouru/" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://twitter.com/saicharangouru" target="_blank" rel="noopener noreferrer"><i class="fab fa-twitter"></i></a>
+                    <a href="https://github.com/saicharan-gouru/" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i></a>
+                </div>
+                <p>Made with 💖 by <a class="profile" href="https://saicharangouru.netlify.app" target="_blank" rel="noopener noreferrer">Saicharan Gouru</a></p>
+                <small>ⓒ Spazeir UI | 2022</small>
+            </div>
+
+        </div>
+    </div>
+    <script src="snackbar.js></script>
+    <script src="https://kit.fontawesome.com/bbba0f11e7.js " crossorigin="anonymous "></script>
+</body>
+
+</html>
