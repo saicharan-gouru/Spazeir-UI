@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital@1&family=Ubuntu:wght@300&display=swap');
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+:root {
+    --primary-orange: rgb(248, 103, 103);
+    --secondary-orange: rgb(255, 167, 4);
+    --gold: gold;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: var(--primary-orange);
+    padding: 0.3rem;
+    max-width: 80%;
+    margin: auto;
+}
+
+.child {
+    padding: 0.8rem 3rem;
+}
+
+.child:hover {
+    background-color: var(--secondary-orange);
+}
+
+.active {
+    background-color: var(--gold) !important;
+    border-bottom: 4px solid black;
+}
