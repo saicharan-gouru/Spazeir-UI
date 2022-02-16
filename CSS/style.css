@@ -93,7 +93,7 @@ body {
 .profile {
     color: white;
     text-decoration: none;
-    color: var(--gold) ;
+    color: var(--gold);
     font-weight: bold;
 }
 
@@ -111,4 +111,14 @@ body {
 .active-tab {
     color: var(--gold);
     font-weight: bold;
+}
+
+.installation {
+    max-width: 75%;
+    margin: auto;
+    padding: 2rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    border-radius: 10px;
+    background-color: var(--gold);
 }
