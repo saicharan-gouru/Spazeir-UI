@@ -1,0 +1,649 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital@1&family=Ubuntu:wght@300&display=swap');
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+:root {
+    --primary-red: #DC2626;
+    --secondary-red: #F87171;
+    --primary-green: #34D399;
+    --secondary-green: #A7F3D0;
+    --primary-yellow: #FBBF24;
+    --secondary-yellow: #FDE68A;
+    --primary-blue: #2563EB;
+    --secondary-blue: #60A5FA;
+    --white: #ffff;
+    --black: black;
+    --hover-color: rgb(247, 242, 242);
+    --grey: grey;
+    --gainsboro: gainsboro;
+    --primary-orange: rgb(248, 103, 103);
+    --secondary-orange: rgb(255, 167, 4);
+    --gold: gold;
+}
+
+
+/* Alert */
+
+.alert-container {
+    max-width: 30rem;
+    margin: auto;
+}
+
+.alert {
+    padding: 1.5rem;
+    border: 2px solid gainsboro;
+    margin: 1rem;
+    border-radius: 1rem;
+    font-weight: bold;
+}
+
+.success {
+    background-color: var(--secondary-green);
+}
+
+.success:hover {
+    background-color: var(--primary-green);
+}
+
+.failure {
+    background-color: var(--secondary-red);
+}
+
+.failure:hover {
+    background-color: var(--primary-red);
+}
+
+.warning {
+    background-color: var(--secondary-yellow);
+}
+
+.warning:hover {
+    background-color: var(--primary-yellow);
+}
+
+.info {
+    background-color: var(--secondary-blue);
+}
+
+.info:hover {
+    background-color: var(--primary-blue);
+}
+
+
+/* Avatar */
+
+.avatar {
+    border-radius: 50%;
+}
+
+.avatar-small {
+    width: 3rem;
+    height: 3rem;
+}
+
+.avatar-medium {
+    width: 6rem;
+    height: 6rem;
+}
+
+.avatar-large {
+    width: 10rem;
+    height: 10rem;
+}
+
+.avatar-container {
+    max-width: max-content;
+    margin: auto;
+    padding: 3rem;
+}
+
+.source-code-container {
+    max-width: 60%;
+    margin: auto;
+}
+
+
+/*Badge*/
+
+.badge-container {
+    max-width: 20rem;
+    margin: auto;
+}
+
+.badge {
+    position: relative;
+    font-size: 0.79rem;
+    border-radius: 2rem;
+    color: var(--white);
+    font-weight: bold;
+    width: max-content;
+    background-color: var(--primary-red);
+}
+
+.text {
+    margin: 2rem;
+}
+
+.badge-on-text {
+    top: -0.8rem;
+    background-color: var(--primary-red);
+    padding: 0.2rem 0.5rem;
+}
+
+.large-badge-on-text {
+    top: -0.8rem;
+    left: -0.5rem;
+    padding: 0.5rem 0.5rem;
+}
+
+.button1 {
+    padding: 0.6rem 0.8rem;
+    background-color: var(--primary-blue);
+    color: var(--white);
+    border-radius: 0.5rem;
+    border: 0px;
+}
+
+.badge-on-button {
+    top: -3.9rem;
+    left: -0.8rem;
+    width: max-content;
+    padding: 0.2rem 0.5rem;
+}
+
+.fas {
+    font-size: 3rem;
+}
+
+.badge-on-icon {
+    top: -4.3rem;
+    left: 3rem;
+    padding: 0.2rem 0.5rem;
+}
+
+.avatar {
+    border-radius: 50%;
+    width: 3rem;
+    height: 3rem;
+}
+
+.badge-on-avatar {
+    padding: 0.2rem 0.4rem;
+    bottom: 4.5rem;
+    left: 2rem;
+    border: 2px solid var(--white);
+}
+
+
+/*Button*/
+
+.button-container {
+    max-width: 35rem;
+    margin: auto;
+}
+
+.button {
+    padding: 1rem 2rem;
+    margin: 1rem;
+    border: 0px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.primary-red {
+    background-color: var(--secondary-red);
+}
+
+.primary-red:hover {
+    background-color: var(--primary-red);
+    color: var(--white);
+}
+
+.primary-blue {
+    background-color: var(--secondary-blue);
+}
+
+.primary-blue:hover {
+    background-color: var(--primary-blue);
+    color: var(--white);
+}
+
+.primary-yellow {
+    background-color: var(--secondary-yellow);
+}
+
+.primary-yellow:hover {
+    background-color: var(--primary-yellow);
+    color: var(--white);
+}
+
+.primary-green {
+    background-color: var(--secondary-green);
+}
+
+.primary-green:hover {
+    background-color: var(--primary-green);
+    color: var(--white);
+}
+
+.source-code {
+    margin-top: 2rem;
+}
+
+.link-red {
+    background-color: var(--secondary-red);
+    text-decoration: underline;
+}
+
+.link-red:hover {
+    background-color: var(--primary-red);
+    color: var(--white);
+}
+
+.link-blue {
+    background-color: var(--secondary-blue);
+    text-decoration: underline;
+}
+
+.link-blue:hover {
+    background-color: var(--primary-blue);
+    color: var(--white);
+}
+
+.link-yellow {
+    background-color: var(--secondary-yellow);
+    text-decoration: underline;
+}
+
+.link-yellow:hover {
+    background-color: var(--primary-yellow);
+    color: var(--white);
+}
+
+.link-green {
+    background-color: var(--secondary-green);
+    text-decoration: underline;
+}
+
+.link-green:hover {
+    background-color: var(--primary-green);
+    color: var(--white);
+}
+
+.icon {
+    background-color: var(--secondary-blue);
+    font-size: 20px;
+}
+
+.icon:hover {
+    background-color: var(--primary-blue);
+    color: var(--white);
+}
+
+
+/*Card*/
+
+.hero-container1,
+.hero-container2,
+.hero-container3,
+.hero-container4 {
+    max-width: 23rem;
+    margin: auto;
+    background-color: var(--white);
+    border-radius: 1rem;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+    border: 2px solid black;
+}
+
+.container1:hover {
+    background-color: var(--hover-color);
+}
+
+.hero-container1 .container1,
+.hero-container1 .container2,
+.hero-container2 .container2 {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    padding: 0.5rem;
+    border-radius: 1rem;
+}
+
+.hero-img {
+    width: 5 rem;
+    height: 10rem;
+    border-top-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    padding-top: 0.5rem;
+}
+
+.hero-heading {
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+
+h6 {
+    padding-top: 0px;
+    margin-top: 0px;
+    text-align: center;
+    color: var(--grey);
+}
+
+.btn {
+    border-radius: 0.5rem;
+    border: 1px solid;
+    padding: 0.5rem;
+    background-color: var(--white);
+    color: black;
+    cursor: pointer;
+    font-size: 0.85rem;
+}
+
+.btn:hover {
+    background-color: var(--gainsboro);
+}
+
+i {
+    padding: 0.5rem;
+    border-radius: 0.2rem;
+    cursor: pointer;
+}
+
+i:hover {
+    background-color: var(--gainsboro);
+}
+
+.hero-container2 {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid black;
+}
+
+.hero-container2 .container1,
+.hero-container3 .container1,
+.hero-container4 .container1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 1rem;
+}
+
+.hero-heading {
+    text-align: center;
+}
+
+.desc {
+    padding: 0rem 1rem;
+    font-size: 0.8rem;
+}
+
+.hero-container3 .container2 {
+    display: flex;
+    justify-content: flex-start;
+    gap: 20px;
+    align-items: center;
+    padding: 0.5rem;
+}
+
+.hero-container4 .container2 {
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px;
+    align-items: center;
+    padding: 0.5rem;
+}
+
+.heading {
+    text-align: center;
+    text-decoration: underline;
+}
+
+
+/* card 6 */
+
+.hero-container6 {
+    max-width: 23rem;
+    margin: auto;
+    background-color: var(--white);
+    border-radius: 1rem;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+    border: 2px solid black;
+}
+
+.hero-container6 .container1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 1rem;
+}
+
+.hero-container6 .container2 {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    padding: 0.5rem;
+    border-radius: 1rem;
+}
+
+.hero-container6 .container1 .content {
+    margin-top: -5rem;
+}
+
+.hero-container6 .container1 .content .desc {
+    color: var(--black);
+    margin-right: 0 !important;
+}
+
+.hero-container6 .container1 .content .hero-heading {
+    color: var(--white);
+    margin-right: 7rem;
+}
+
+.hero-container6 .container1 .content h6 {
+    color: var(--white);
+    margin-right: 7rem;
+}
+
+
+/*Image*/
+
+.image-container {
+    max-width: 50%;
+    margin: auto;
+    gap: 4rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.responsive-image {
+    width: 100%;
+    height: auto;
+}
+
+.round-image {
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+}
+
+
+/*Input*/
+
+.input-container {
+    max-width: 70%;
+    margin: auto;
+}
+
+.input-textbox {
+    width: 80%;
+    margin: auto;
+    padding: 5px;
+}
+
+.input-textbox-with-validation {
+    border: 2px solid var(--primary-red);
+    width: 80%;
+    margin: auto;
+    padding: 5px;
+}
+
+.error-style {
+    background-color: var(--primary-red);
+    padding: 5px;
+    color: var(--white);
+    font-weight: bold;
+}
+
+.sourcecode {
+    margin: 2rem;
+}
+
+
+/*Modal*/
+
+.modal-container {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+    max-width: 50%;
+    margin: auto;
+}
+
+.dialog-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--white);
+    width: 30%;
+    margin: auto;
+    padding: 1rem;
+    border: 1px solid black;
+    border-radius: 3px;
+}
+
+.dialog {
+    background-color: rgb(228, 222, 222, 0.28);
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding-top: 8rem;
+    display: none;
+}
+
+.far {
+    cursor: pointer;
+}
+
+.btn-dialog {
+    padding: 1rem 3rem;
+    margin: 3rem;
+    background-color: var(--secondary-blue);
+    border: 0px;
+    border-radius: 1rem;
+}
+
+.btn-dialog:hover {
+    color: var(--white);
+    background-color: var(--primary-blue);
+}
+
+
+/*Navigation*/
+
+.navigation {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: var(--primary-orange);
+    padding: 0.3rem;
+    max-width: 80%;
+    margin: auto;
+}
+
+.nav-child {
+    padding: 0.8rem 3rem;
+}
+
+.nav-child:hover {
+    background-color: var(--secondary-orange);
+}
+
+.nav-active {
+    background-color: var(--gold) !important;
+    border-bottom: 4px solid black;
+}
+
+
+/*Snackbar*/
+
+.snackbars-container {
+    max-width: 60%;
+    margin: auto;
+}
+
+button {
+    display: block;
+    margin: 2rem;
+    padding: 1rem 3rem;
+    border-radius: 0.5rem;
+    background-color: var(--secondary-blue);
+    border: 0px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: var(--primary-blue);
+    color: var(--white);
+}
+
+.snackbar {
+    position: absolute;
+    visibility: hidden;
+    background-color: var(--black);
+    color: var(--white);
+    max-width: 15rem;
+    text-align: center;
+    padding: 1rem;
+    z-index: 1;
+}
+
+.snackbar.show {
+    visibility: visible;
+}
+
+
+/* baseline snackbar */
+
+.baseline-snackbar {
+    top: 38rem;
+    left: 40%;
+    right: 40%
+}
+
+
+/* leading snackbar */
+
+.leading-snackbar {
+    top: 38rem;
+    left: 5%;
+}
+
+
+/* stacked snackbar */
+
+.stacked-snackbar {
+    top: 34rem;
+    right: 5%;
+}
