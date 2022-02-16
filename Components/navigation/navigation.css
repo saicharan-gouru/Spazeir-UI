@@ -10,7 +10,7 @@ body {
     --gold: gold;
 }
 
-.nav {
+.navigation {
     display: flex;
     justify-content: space-evenly;
     background-color: var(--primary-orange);
@@ -19,15 +19,15 @@ body {
     margin: auto;
 }
 
-.child {
+.nav-child {
     padding: 0.8rem 3rem;
 }
 
-.child:hover {
+.nav-child:hover {
     background-color: var(--secondary-orange);
 }
 
-.active {
+.nav-active {
     background-color: var(--gold) !important;
     border-bottom: 4px solid black;
 }
