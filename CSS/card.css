@@ -10,6 +10,7 @@ body {
     --hover-color: rgb(247, 242, 242);
     --grey: grey;
     --gainsboro: gainsboro;
+    --primary-blue: #2563EB;
 }
 
 .hero-container1,
@@ -177,4 +178,27 @@ i:hover {
 .hero-container6 .container1 .content h6 {
     color: var(--white);
     margin-right: 7rem;
+}
+
+#badge-of-card {
+    position: relative;
+    z-index: 1;
+    background-color: var(--primary-blue);
+    color: var(--white);
+    padding: 1rem;
+    left: -10px;
+    top: -8rem;
+    border-radius: 40%;
+}
+
+#dismiss {
+    position: relative;
+    font-weight: bold;
+    margin-left: auto;
+    padding: 1rem;
+    cursor: pointer;
+}
+
+.card-with-shadow {
+    box-shadow: 0 5px 15px var(--black);
 }
