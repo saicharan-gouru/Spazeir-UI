@@ -11,6 +11,7 @@ body {
     --grey: grey;
     --gainsboro: gainsboro;
     --primary-blue: #2563EB;
+    --gold: #fdc434;
 }
 
 .hero-container1,
@@ -75,13 +76,17 @@ h6 {
     background-color: var(--gainsboro);
 }
 
-i {
+.fa-heart,
+.fa-share,
+.fa-ellipsis-v {
     padding: 0.5rem;
     border-radius: 0.2rem;
     cursor: pointer;
 }
 
-i:hover {
+.fa-heart:hover,
+.fa-share:hover,
+.fa-ellipsis-v:hover {
     background-color: var(--gainsboro);
 }
 
@@ -184,11 +189,12 @@ i:hover {
     position: relative;
     z-index: 1;
     background-color: var(--primary-blue);
-    color: var(--white);
+    color: var(--gold);
     padding: 1rem;
     left: -10px;
     top: -8rem;
     border-radius: 40%;
+    font-weight: bold;
 }
 
 #dismiss {
