@@ -76,7 +76,7 @@ h6 {
     background-color: var(--gainsboro);
 }
 
-.fa-heart,
+.love,
 .fa-share,
 .fa-ellipsis-v {
     padding: 0.5rem;
@@ -84,7 +84,7 @@ h6 {
     cursor: pointer;
 }
 
-.fa-heart:hover,
+.love:hover,
 .fa-share:hover,
 .fa-ellipsis-v:hover {
     background-color: var(--gainsboro);
