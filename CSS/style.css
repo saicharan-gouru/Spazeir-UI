@@ -122,24 +122,3 @@ body {
     border-radius: 10px;
     background-color: var(--gold);
 }
-
-@media screen and (min-width: 320px) and (max-width: 426px) {
-    .hero-header {
-        flex-direction: column;
-    }
-    .hero-main {
-        flex-direction: column;
-        gap: 2rem;
-    }
-    .hero-content {
-        padding: 0;
-        margin: 20px;
-    }
-}
-
-@media screen and (min-width: 427px) and (max-width: 1024px) {
-    .hero-main {
-        flex-direction: column;
-        gap: 2rem;
-    }
-}
