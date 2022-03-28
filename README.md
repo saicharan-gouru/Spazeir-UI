@@ -13,3 +13,7 @@ This is a component library named spazeir UI which can be used to design website
 * Modal
 * Snackbar
 * Navigation
+* Lists
+* Text utilities
+* Simplified Grid
+* Rating
