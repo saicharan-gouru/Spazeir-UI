@@ -19,7 +19,6 @@ body {
 
 .header {
     grid-area: header;
-
 }
 
 .aside {
@@ -28,12 +27,10 @@ body {
 
 .main {
     grid-area: main;
-
 }
 
 .footer {
     grid-area: footer;
-
 }
 
 .hero-header {

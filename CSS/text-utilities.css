@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital@1&family=Ubuntu:wght@300&display=swap');
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.utilities-container {
+    max-width: 500px;
+    margin: auto;
+}
+
+.headings,
+.small-text {
+    padding: 2rem;
+}
+
+.gray-text {
+    color: gray;
+    font-weight: bold;
+    padding: 2rem;
+}
+
+.center-text {
+    text-align: center;
+    padding: 2rem;
+}
